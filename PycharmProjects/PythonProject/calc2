@@ -1,0 +1,24 @@
+oPC = input('O que você irá fazer? 1 para calcular, 2 para sair: ')
+if oPC not in "1":
+    print('Até mais programador!! (viadao)')
+else:
+    oPM = input('Qual operação matemática você irá usar? Digite 1 para adição, 2 para subtração, 3 para multiplicação e 4 para divisão: ')
+
+    if oPM not in ["1", "2", "3", "4"]:
+        print('Ajeita isso ai karaio')
+    else:
+        n1 = int(input('Primeiro número: '))
+        n2 = int(input('Segundo número: '))
+
+
+    if oPM == "1":
+        print('O resultado é: ', n1 + n2)
+    elif oPM == "2":
+        print('O resultado é: ', n1 - n2)
+    elif oPM == "3":
+        print('O resultado é: ', n1 * n2)
+    elif oPM == "4":
+        print('O resultado é: ', n1 / n2)
+    else:
+        print('Ta errado ai bobo')
+        
